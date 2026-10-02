@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14161c;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+
+   input[type = "text"], input[type= "nome"], input[type = "cargo"], textarea {
+    color: white;
+    background-color: #1f232c;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: none;
+}
+
+button {
+    background-color: #6466f1;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: none;
+}
+
+.card {
+    background: linear-gradient(to bottom, #6466f1, #4e25bb);
+    color: white;
+    width: 100%;
+    padding: 70px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cargo {
+    font-size: 17px;
+}
+
+.contador {
+    color: #8b909d;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
